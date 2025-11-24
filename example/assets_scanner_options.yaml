@@ -2,3 +2,4 @@ path: "lib/src"
 className: "R"
 ignoreComment: true
 localizations: 'assets/localizes'
+removeImagesPrefix: true
