@@ -6,10 +6,10 @@ container:
 check_task:
   flutter_doctor_script: flutter doctor -v
   flutter_analyze_script:
-    - bash scripts/dartfmt_check.sh 
-    - flutter packages get
+    - bash scripts/dartfmt_check.sh
+    - flutter pub get
     - cd example
-    - flutter packages pub run build_runner build --delete-conflicting-outputs
+    - dart run build_runner build --delete-conflicting-outputs
     - cd ..
     - flutter analyze
-    - dart run test
+    - dart test

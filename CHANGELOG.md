@@ -1,3 +1,11 @@
+## 2.1.0
+
+* Upgrade to Flutter 3.44.2 / Dart 3.12.2
+* Bump minimum SDK constraint to `>=3.6.0 <4.0.0`
+* Update dependencies to latest compatible versions
+* Remove deprecated linter rules
+* Remove unused `meta` dependency
+
 ## 2.0.0
 
 * Migrating to null-safety
