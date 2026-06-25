@@ -35,19 +35,19 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
+      home: const Scaffold(
         backgroundColor: Colors.blue,
         body: SafeArea(
           child: Center(
             child: Column(
               children: <Widget>[
-                const Image(
+                Image(
                   image: AssetImage(R.alarmWhite),
                 ),
-                const Image(
+                Image(
                   image: AssetImage(R.baseline3dRotationWhite),
                 ),
-                const Image(
+                Image(
                   image: AssetImage(R.arrowRightAltWhite),
                 ),
               ],
